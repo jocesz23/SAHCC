@@ -1,0 +1,88 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter-form {
+  color: #666666;
+  border: 1px solid #666666;
+  padding: 10px;
+  border-radius: 3px;
+  position: relative;
+ }
+
+.newsletter-form h2 {
+  margin-top: 0px;
+}
+
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  height: 30px;
+  margin: 0 0 5px;
+}
+  
+input[type="submit"] {
+  width: 100%;
+  box-sizing: border-box;
+  background: #3cb878;
+  border: 0;
+  color: white;
+  height: 30px;
+  margin: 0 0 5px;
+  cursor: pointer;
+}
+
+.exit-button {
+  position: absolute;/*fixed, relative...*/
+  top: 3px;
+  right: 10px;
+  cursor: pointer;
+  }
+
+.question-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 20px;
+  background: #3cb878;
+  width: 100px;
+  height: 100px;
+  line-height:100px; /*így biztosan középen maradp*/
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 10;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px #666666;
+}
+
+.key-features {
+  display: flex; 
+  /*flex-direction: ezzel adhatom meg az elhelyezés irányát*/
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-itmes: center;
+}
+
+.feature {
+  background: #3cb878;
+  padding: 30px;
+  margin: 10px;
+  width: 120px;
+  box-shadow: 2px 2px 10px #666666
+  }
+
+.feature p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-align: center;
+}

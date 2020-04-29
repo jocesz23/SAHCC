@@ -1,0 +1,17 @@
+main {
+ width: 450px
+}
+h1 {
+  color: #E67676;
+}
+
+h2 {
+  color: #ac00e6;
+}
+ol {
+  text-decoration: underline;
+  list-style-type: upper-roman;
+}
+.I-III {
+  color: #e600e6
+}

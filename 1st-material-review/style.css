@@ -1,0 +1,24 @@
+h1 {
+  background: #FF0000;
+  color: white;
+  margin: 50px;
+  margin: 100px;
+  border: 5px solid black;
+  padding: 30px;
+  width: 500px;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+#emailInput {
+  /* This is how you can select an id: #   */
+  background:  magenta;
+}
+.blue {
+  /* This is how you can select a class: #   */
+  color: blue;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  
+}

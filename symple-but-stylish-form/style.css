@@ -1,0 +1,28 @@
+main {
+  text-transform: uppercase;
+  font-family: 'Baloo Thambi 2', cursive;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  font-weight: bold;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+.box {
+  width: 200px;
+  padding: 20px;
+  margin: 2px;
+  border: 2px solid #66ff66;
+  border-radius: 5px;
+  }
+  
+.submit {
+  background: #66ff66;
+  width: 100px;
+  padding: 20px;
+  margin-top: 20px;
+  border: 2px solid #66ff66;
+  border-radius: 50px;
+  }

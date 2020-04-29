@@ -1,0 +1,12 @@
+p {
+  font-family: 'Sen', sans-serif;
+  cursor: pointer;
+}
+
+a:link {
+  color: green;
+}
+
+a:hover {
+  color: lime;
+}

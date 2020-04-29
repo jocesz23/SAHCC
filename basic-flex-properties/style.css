@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  flex-wrap: wrap; /*ezzel azt érem el, hogy a boxok azonos méretűek maradnak, ha a tároló szélessége kisebb, több sorba helyezi el*/
+  }
+
+.item-green {
+  width: 150px;
+  height: 150px;
+  background: #51d400
+}
+
+.item-yellow {
+  width: 150px;
+  height: 150px;
+  background: #ffd62a
+}
+
+.item-purple {
+  width: 150px;
+  height: 150px;
+  background: #b02afe
+}

@@ -1,0 +1,50 @@
+header {
+  width: 100%;
+  height: 50px;
+  background: purple;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px 80px;
+   
+}
+
+a {
+  height:30px;
+  background: cyan;
+  border: 0px;
+  margin-left: 20px;
+}
+
+.B1 {
+   width: 100px;
+   }
+
+.B2 {
+   width: 150px;
+   }
+
+main {
+  flex-grow: 1;
+  background: lime;
+}
+side {
+  flex-grow: 3;
+  background: yellow;
+}
+div {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  margin: 80px 100px 10px;
+  }
+
+footer {
+  height: 80px;
+  flex-grow: 5;
+  background: lightgrey;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
